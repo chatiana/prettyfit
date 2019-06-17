@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400, 500, 700');
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color:#505962
+}
+/*navigation*/
+.navbar-brand{
+    background-color:#8F28FF;
+
+}
+.navbar-darl .navbar-nav.nav-link{
+    font-size: 1.1em;
+    color: #fff;
+    padding-top: .8em;
+}
+.navbar .navbar-dark{
+    background-color: #8F28FF;
+}
+.navbar{
+    background-color: #8F28FF;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+}
+.navbar-nav li{
+    padding: .7rem;
+}
+/*.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#68d2d7;
+}*/
+.line-shape,.line-shape-about ,.line-shape-services , .line-shape-blog, .line-shape-contact{
+    width: 80px;
+    height: 15px;
+    background-color:#68d2d7;
+  }
+  .line-shape-about {
+	margin-left:50%;
+}
+.line-shape-services{
+    margin-left:50%;
+}
+.line-shape-blog{
+    margin-left:50%;
+
+}
+.line-shape-contact{
+    margin-left:50%;
+}
+/*carousel*/
+.carousel-caption{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+.carousel-caption h1{
+    text-transform: uppercase;
+    font-size: 400%;
+    text-shadow:2px 5px 15px #000;
+}
+.carousel-caption p{
+    font-size: 100%;
+    font-weight: 200;
+    text-shadow:5px 5px 15px  #000;
+    padding-bottom:1rem;
+}
+.carousel-item .btn{
+    font-size: 18px;
+    color:#fff;
+    padding: 12px 22px;
+    background:#8F28FF;
+    border: 1px solid #fff;
+    margin: 15px
+}
+.btn-primary:hover{
+    background-color: #4d23a8;
+    border: 1px solid #563d7c:
+}
+
+
+#about .btn{
+    font-size: 18px;
+    color:#fff;
+    padding: 12px 22px;
+    background:#8F28FF;
+    border: 1px solid #fff;
+    margin: 15px
+}
+#about .btn:hover{
+    background-color: #4d23a8;
+    border: 1px solid #563d7c:
+}
+
+@media (max-width:600px){
+    .carousel-caption{
+        display:none;
+    }
+}
+/*about*/
+.aboutcontainertext{
+    padding: 10% 0 0 0;
+    font-weight: bold;
+    text-align: center;
+}
+.containerservice{
+    padding: 10% 0 0% 0;
+    font-weight: bold;
+}
+.containerblog{
+    padding: 10% 0 0% 0;
+    font-weight: bold; 
+    text-align: center;
+   
+}
+.containercontact{
+    padding: 10% 0 0% 0;
+    font-weight: bold; 
+    text-align: center;
+}
+/*SERVICES*/
+.btn-block{
+    background-color: #8F28FF;
+    color:#fff;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+}
+/*blog*/
+#blog .btn-primary{
+background-color: #68d2d7;
+border-color: #68d2d7;
+box-shadow:2px 2px 5px rgb(102, 101, 101);
+}
+#blog .btn-primary:hover{
+    background-color: #563d7c;
+    border-color: #563d7c;  
+}
+/*nesletter*/
+.jumbotron{
+    background: #68d2d7;
+  /*background-image: url('https://crossfitireland.ie/wp-content/uploads/2019/04/CrossFit-204-Gallery-1-Legends-940x481.jpg');
+  opacity: 0.4;*/
+}
+.jumbotron .btn-default{
+    background-color: #4d23a8;
+    color:#fff;
+    width: 50%;
+    padding:15px;
+}
+.jumbotron .form-control{
+    width: 50%;
+    margin-bottom: 10px;
+}
+#newsletter .form-group{
+    padding-top:20px:
+} 
+
+/*contact*/
+.cdetails{
+    text-align: center;
+    padding-bottom: 55px;
+}
+/*footer*/
+footer{
+    width:100%;
+    background-color: #8F28FF;
+    padding: 3%;
+    color:#fff;
+}
+.mininav li{
+    list-style: none;
+    font-size: .8rem; 
+}
+.mininav a{
+    color:#fff;
+}
+.mininav a:hover{
+    color:#4d23a8;
+    list-style: none;
+}
+.social-list {
+    list-style: none;
+}
+.social-list li{
+    display: inline;
+}
+.social-list img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.credits{
+    background-color: #4d23a8;
+    padding: 10px 0 5px 0;
+    color:#fff;
+}
+.text-center p{
+    font-size: .6rem;
+    text-align: center;
+}
+.follow{
+    font-size: 25px;
+}
+footer .text-left{
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+}
