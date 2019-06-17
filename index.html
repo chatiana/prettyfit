@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <meta name="author" content="Tatiana Carrillo">
+    <meta name="description" content="Pretty Fit - Personal Trainner">
+    <meta name="keywords" content="prettyfit.ie, personaltrainner, coach, fitness,">
+    <title>PrettyFit.ie</title>
+
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Font-awesome -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- Custom CSS-->
+    <link href="css/style3.css" rel="stylesheet">
+
+
+<!-- Custom Fonts from Google -->
+ 
+</head>
+
+<body>
+<!--TOP NAV-->
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/pf_logosmline.png"></a>
+            <button class="navbar-toggle"  type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="fas fa-bars"></span>
+            </button>
+            <!--navigation bar links-->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index3.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-light btn-sm" href="register.html" role="button">Register</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="btn btn-light btn-sm" href="signin.html" role="button">Members</a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--CAROUSSEL-->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+         <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+         </ul>
+         <!--Carousel - Slides-->
+         <div class="carousel-inner">
+            <!--Carousel - Slide 0 -active--> 
+            <div class="carousel-item active">
+                <img src="images/pf-fitness5.jpg" class="img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1> Start achieving your goals</h1>
+                    <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Laliquam enim consectetur!</p>
+                    <a class="btn btn-primary btn-lg"  href="#contact">Book Free Consultation</a>
+                </div>
+            </div> 
+            <!--Carousel - Slide 1 --> 
+            <div class="carousel-item">
+                <img class="img-fluid" src="images/pf-fitness6.jpg" >
+                <div class="carousel-caption d-none d-md-block">
+                    <h1> FITNESS FOR LADIES</h1>
+                    <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Laliquam enim consectetur!</p>
+                    <button type="button" class="btn btn-primary">GET IN TOUCH</button>
+                </div>
+             </div>     
+            <!--Carousel - Slide 2 -->      
+            <div class="carousel-item">
+                <img  class="img-fluid" src="images/pf-fitness1.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1> Thrid Subtitle</h1>
+                    <p>ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Laliquam enim consectetur!</p>
+                </div>
+            </div>  
+         </div>
+         <!--Start of slidder controls-->
+         <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+             <span class="carousel-control-prev-icon" area-hidden="true"></span>
+             <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" area-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    </div> <!--End Slidder-->
+
+<!-- About Me -->
+    <div id="about" class="container-fluid padding">
+        <div class="row  padding" id="aboutme">
+            <div class="col-12">
+                <h1 class="aboutcontainertext">ABOUT</h1>
+                <div class="line-shape-about  mb-5"></div>
+            </div>
+
+            <div class="col-lg-6">
+                    <h2>Hi, I'm Edel!</h2>
+                    <p>I’m a Personal Trainer, Health & Beauty Specialist and lecturer for Academy One.
+                    I run beginner programmes for anyone new to fitness or returning after a break. I cover the fundamental exercise movements in a supportive environment with proper coaching & technique.</p>
+                    <p>I specialise in Pre/Postnatal Fitness & Nutrition and cater for new mams who want to get back into shape after giving birth.
+                      <strong>The best part is, you can bring your little ones along with you while you train! </strong>
+                   I’ve also set up a functional mobility class combing elements of yoga, flexibility & self myofascial release (foam rolling). It helps to relieve tight/sore muscles, improves flexibility, increases circulation, improves joint range of motion and movement, helps prevent injuries and promotes relaxation. 
+                    </br>Suitable for all ages & levels.</p> 
+                   <p>If you would like some more information get in touch.</p>
+                   <p>Edel x</p>
+                   <a class="btn btn-primary" href="#contact">GET IN TOUCH</a>
+
+            </div>
+            <div class="col-lg-6">
+            <img src="images/aboutme.png" class="aboutphoto img-fluid">   
+             <!--  <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fa fa-envelope"></a>-->
+            </div>
+            
+           
+        </div>
+    </div>
+<!-- Services -->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h1 class="containerservice" >SERVICES</h1> 
+            <div class="line-shape-services mt-1 mb-5"></div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding">  
+        <div class="row padding">
+             <div class="col-md-4">
+                <div id="free" class="card">
+                    <img src="images/pf-sessions.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">FREE Consultation</h3>
+                            <!--<p class="card-text">Some quick extitle and make up the bulk of the card's content.</p>-->
+                            <ul><li>30Min  |   FREE </li></ul>
+                            <a href="signin.html" class="btn btn-success btn-block">Book it</a>    
+                        </div>
+                </div>
+             </div>
+                    <div class="col-md-4">
+                        <div id="121" class="card">
+                            <img src="images/pf-fitness5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="card-title">1-2-1 Session</h3>
+                                    <ul><li>45Min  |   25 Eur </li></ul>
+                                    <a href="signin.html" class="btn btn-success btn-block" role="button">Book it</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div id="nutri" class="card">
+                            <img src="images/pf-mealplan.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="card-title" >Nutritional Plan</h3>
+                                    <ul><li>2 weeks  |   20 Eur </li></ul>
+                                    <a href="signin.html" class="btn btn-success btn-block" role="button">Book it</a>
+                                </div>
+                        </div>
+                    </div>
+               </div>
+               <div class="row padding">
+                    <div class="col-md-4">
+                        <div id="tanning" class="card">
+                            <img src="images/pf-spray.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="card-title">Competition Tanning</h3>
+                                    <ul><li>45Min  |   40 Eur </li></ul>
+                                    <a href="signin.html" class="btn btn-success btn-block" role="button">Book it</a>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="massage" class="card">
+                            <img src="images/pf-massage.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="card-title">Sport Massage</h3>
+                                    <ul><li>30Min  |   35 Eur </li></ul>
+                                    <a href="signin.html" class="btn btn-success btn-block" role="button">Book it</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div id="121x" class="card">
+                            <img src="images/pf-lifting.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h3 class="card-title">1-2-1 Sessions x10</h3>
+                                    <ul><li>45 Min  |   150 Eur </li></ul>
+                                    <a href="#" class="btn btn-success btn-block" role="button">Book it</a>
+                                </div>
+                        </div>
+                    </div>
+  
+               </div>
+ 
+<!-- BLOG -->
+        <div id= "blog"class="container">
+                <h1 class="containerblog" id=subtitle-style>BLOG</h1>
+                <div class="line-shape-blog mb-5"></div>
+<!--TEST THRUMNAIL-->
+<!-- Project One -->
+<div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/pf-blog1.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Are you flexible or are you mobile?</h3>
+          <p>Many people mistakenly use the terms flexibility and mobility interchangeably.  And although flexibility is a component of mobility, they are very different.
+             Flexibility is the .. </p>
+          <a class="btn btn-primary" href="https://prettyfitcoach.wordpress.com/2019/01/02/are-you-flexible-or-are-you-mobile/">Continue Reading..</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Project Two -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/pf-blog2.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Welcome to the vicious circle of 6 week challenges</h3>
+          <p>What is the idea behind all these 6 week challenges? Well, you definitely shouldn’t see them as a chance to lose as much weight as possible as quickly as possible.. If you’re thinking of taking part in a 6 week..</p>
+          <a class="btn btn-primary" href="https://prettyfitcoach.wordpress.com/2018/12/05/welcome-to-the-vicious-cycle-of-6-week-challenges/">Continue Reading..</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Project Three -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/pf-blog3.jpeg" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Have you lost your motivation?</h3>
+          <p>At this time of year most gyms will notice their class numbers have dipped, Personal Trainers may have a bit more time on their hands and even the mention of exercise will make some people hide under their warm cosy ...</p>
+          <a class="btn btn-primary" href="https://prettyfitcoach.wordpress.com/2018/11/16/have-you-lost-your-motivation/">Continue Reading..</a>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <hr>
+
+      <!-- Pagination -->
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+        </div>
+<!-- CONTACT -->
+        <div id="contact" class="container">
+            <h1 class="containercontact" id=subtitle-style>CONTACT</h1>
+            <div class="line-shape-blog mb-5"></div>
+            <div class="cdetails">
+                <h4>+353 83 657 5439</h4>
+                <a href="mailto:sprettyfit@mail.com?Subject=Info%20Please" target="_top">prettyfit@mail.com</a>
+            </div>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name">   
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">   
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" placeholder="Phone">   
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Message"> </textarea>
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+
+            </form>    
+        
+
+        </div> <!--End of contact-->
+<!--NEWSLETTER -->
+
+    <div class="container-fluid" id="newsletter">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+             <h2>Don't miss out, Subscribe to the newsletter.</h2>
+             <p>Receive the BEST offers and training related emails.</p>
+            <form>
+             <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email Address">
+                <button type="submit" class="btn btn-default">Subscribe!</button>
+            </div>
+            </form>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- FOOTER -->
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="index.html"><img src="images/pf_logosmline.png"></a>
+                <br>
+            </div>
+            <div class="col-sm-4">
+                <ul class="mininav">
+                    <h5 class="follow">QUICK LINKS</h5>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#121">SERVICES</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+				</ul>
+            </div>
+            <div class="col-sm-4">
+                    <ul class="social-list">
+                        <h5 class="follow">SOCIAL</h5>
+                        <li><a href="#"><img src="images/sm_email.png" class="icon"></a></li>       
+                        <li><a href="#"><img src="images/sm_insta.png" class="icon"></a></li>
+                        <li><a href="#"><img src="images/sm_face.png" class="icon"></a></li>
+                        <li><a href="#"><img src="images/sm_twitter.png" class="icon"></a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="col-12">
+            <hr>
+                <p class="text-center mr-3">Copyright<i class="fa fa-copyright mx-1" aria-hidden="true"></i>2019 by Tatiana Carrillo</p>
+                <a class="text-left mr-3" href="index.html"><i class="fas fa-chevron-circle-up"></i></a>    
+        </div>
+        
+    </footer>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
