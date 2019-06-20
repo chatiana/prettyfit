@@ -32,7 +32,11 @@ html, body{
 .navbar-nav li{
     padding: .7rem;
 }
-
+@media (min-width: 768px) { 
+  .navbar-toggle{
+      display: none;
+  }
+}
 
 :root {
     --input-padding-x: 1.5rem;
