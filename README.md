@@ -1,5 +1,6 @@
 # Name
 Prettyfit.ie - Personal Trainer 
+https://chatiana.github.io/prettyfit/
 
 # Description
 This website was build as part ofmy 1st year course in DID.
